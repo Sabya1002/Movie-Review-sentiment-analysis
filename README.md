@@ -13,13 +13,15 @@ This IMDB dataset goal is to provide a base for sentiment analysis. Usually, dat
 - Then after data being retrieved, we translated all reviews to Portuguese.
 
 ## Approach
-1.### Data Preprocessing:
+1.**Data Preprocessing**:
   - Tokenization: Splitting reviews into individual words or tokens.
   - Removing stop words, punctuation, and special characters.
   - Lemmatization or stemming to reduce words to their base form.
-2.### Feature Extraction:
+
+2.**Feature Extraction**:
   - Bag-of-words representation or word embeddings (e.g., Word2Vec, GloVe).
-3.### Model Selection
+
+3.**Model Selection**
   - We explore various machine learning models, including:
      -  Logistic Regression
      -  Random Forest Classifier
@@ -27,10 +29,12 @@ This IMDB dataset goal is to provide a base for sentiment analysis. Usually, dat
      -  Ada boost Classifier
      -  Finetuned Random Forest Classifier
      -  Support Vector Machines (SVM)
-4.### Model Training and Evaluation:
+  
+4.**Model Training and Evaluation**:
   - Splitting the dataset into training and testing sets.
   - Training the selected model(s) on the training data.
   - Evaluating model performance using accuracy, precision, recall, F1-score, etc.
-5.### Deployment:
+
+5.**Deployment**:
   - Deploying the trained model for real-time sentiment analysis.
     
