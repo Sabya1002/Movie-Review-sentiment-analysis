@@ -37,4 +37,8 @@ This IMDB dataset goal is to provide a base for sentiment analysis. Usually, dat
 
 5.**Deployment**:
   - Deploying the trained model for real-time sentiment analysis.
+
+## Requirements
+- Python 3.x
+- Libraries: pandas, numpy, scikit-learn, nltk, tensorflow (for deep learning models)
     
